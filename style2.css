@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+ 
+}
+.image-map{
+    max-width: 100%;
+    
+}
+.image-map-tablet,
+.image-map-dektop{
+    display: none;
+}
+.arrow{
+    background: #D5966C;
+}
+a{
+    width: 208px;
+    height: 72px;
+    background: #151515;
+    color: white;
+    font-family:'Big Shoulders Display';
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 3.6363637447357178px;
+    border-style: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.arrow{
+    height: 7.2rem;
+    width: 5.6rem;
+
+
+}
+.location{
+    
+    width: 26.4rem;
+    height: 7.2rem;
+    display: flex;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+}
+
+.location>a{
+    background: #151515;
+}
+.location>.arrow{
+    background: #D5966C;
+}
+.location:hover a{
+    background: #D5966C;
+    transition-duration: 3s;
+}
+.location:hover .arrow{
+    background: #151515;
+    transition-duration: 3s;
+}
+.main-container{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+    background-color: #151515;
+    max-width: 100%;
+    height: 49.3rem;
+}
+h1{
+    font-family: 'Big Shoulders Display';
+font-size: 55px;
+font-weight: 900;
+line-height: 50px;
+color: white;
+
+
+
+}
+h2{
+    font-family: 'Big Shoulders Display';
+font-size: 32px;
+font-weight: 900;
+line-height: 32px;
+
+color: #D5966C;;
+
+}
+p{
+    Font-family: 'Outfit';
+Font-style: normal;
+Font-size: 18px;
+line-height: 28px;
+color:white;
+font-weight:300;
+}
+h1, h2, p{
+    margin-left: 1.6rem;
+}
+h2, .paragraph1, .paragraph2 {
+    margin-bottom: 2rem;
+    margin-right: 1.6rem;
+}
+
+footer{
+    background-color: #D5966C;
+    color: #151515;
+    max-width: 100%;
+    height: 33.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+   
+
+}
+
+
+
+.main-text4>p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color:black;
+    margin-left: 0px;
+    
+  
+}
+.icons>a{
+    width: 2rem;
+    height: 2rem;
+    background-color: #D5966C;
+    
+}
+.afacebook:hover{
+    filter: opacity(40%) drop-shadow(0 0 white); 
+}
+.ainstagram:hover{
+    filter: opacity(40%) drop-shadow(0 0 white);  
+}
+.atwitter:hover{
+    filter: opacity(40%) drop-shadow(0 0 white);  
+
+}
+
+.icons{
+    width: 10rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+svg:hover path {
+    fill: white;
+}
+

@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+
+@media screen and (min-width: 900px) {
+      .hero-image, 
+      .hero-image-tablet,
+      .tablet-grid1,
+      .tablet-grid2,
+      .tablet-grid3
+       {
+        display: none;
+      }
+      .hero-image-desktop{
+        display: block;
+        height: 80rem;
+        text-decoration:  white;
+      }
+      .black-photo{
+        width: 45rem;
+        height: 79.9rem;
+        background-color: #151515;
+        color: white;
+      }
+      .first-container{
+        display: flex;
+        flex-direction: row;
+      }
+      .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       width: 111.1rem;
+       margin-left: -20.5rem;
+       margin-top: 7rem;
+      }
+      h1{
+        font-size:9.6rem;
+        line-height: 8.8rem;
+      }
+      .main-title{
+        width: 51.4rem;
+        height: 17.6rem;
+        
+
+      }
+      .main-text{
+        padding: 0;
+        margin: 0;
+      }
+
+      .PandL{
+        display: flex;
+        flex-direction: column;
+      }
+      .location{
+       margin-top: 6.4rem;
+      }
+      p{
+        font-size: 2.2rem;
+        line-height: 3.2rem;
+      }
+      .desktop-grid1{
+        display: block;
+        margin-right: 16.4rem;
+        max-width: 63.5rem;
+      }
+      .section2{
+        margin-top: 18rem;
+      }
+      .mobileh1{
+        display: none;
+      }
+      .desktoph1{
+        display: block;
+      }
+      .main-text2{
+        width: 35rem;
+      }
+      .section22{
+        margin-left: 12.5rem;
+      }
+      .desktop-grid2{
+        display: block;
+        max-width: 63.5rem;
+      }
+      .desktop-grid3{
+        display: block;
+        width: 44.5rem;
+        margin-right: 6rem;
+      }
+      .section3{
+        
+        max-width: 140rem;
+        column-gap: 3rem;
+        height: 72rem;
+      }
+      .section333 {
+        row-gap: 3rem;
+      }
+      .black-container {
+        max-width: 44.5rem;
+        
+
+      }
+      .main-title3>h1{
+        max-width: 35rem;
+        font-weight: 900;
+        font-size: 6rem;
+        line-height: 6rem;
+        
+      }
+      footer{
+        height: 24.4rem;
+      }
+      .main-text4{
+        width: 43rem;
+      }
+    
+        .main-title>h1{
+          color: white;
+          mix-blend-mode: difference;
+        
+        }
+      }
+      
+      
+     
+        
