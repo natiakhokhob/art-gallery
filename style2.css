@@ -147,16 +147,7 @@ footer{
     background-color: #D5966C;
     
 }
-.afacebook:hover{
-    filter: opacity(40%) drop-shadow(0 0 white); 
-}
-.ainstagram:hover{
-    filter: opacity(40%) drop-shadow(0 0 white);  
-}
-.atwitter:hover{
-    filter: opacity(40%) drop-shadow(0 0 white);  
 
-}
 
 .icons{
     width: 10rem;
