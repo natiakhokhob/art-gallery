@@ -16,7 +16,7 @@ body{
     
 }
 .image-map-tablet,
-.image-map-dektop{
+.image-map-desktop {
     display: none;
 }
 .arrow{
@@ -61,6 +61,7 @@ a{
 
 .location>a{
     background: #151515;
+    text-decoration: none;
 }
 .location>.arrow{
     background: #D5966C;
