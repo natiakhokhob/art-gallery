@@ -22,7 +22,7 @@ html{
         margin-left: 15.6rem;
     }
     .main-container{
-        border: 2px solid red;
+      
         display: flex;
         flex-direction: row;
         justify-content: space-between;
